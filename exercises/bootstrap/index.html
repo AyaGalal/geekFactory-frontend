@@ -3,7 +3,9 @@
 
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>geekfactory news</title>
+	<link rel="stylesheet" href="bootstrap.min.css">
 </head>
 
 <body>
@@ -20,9 +22,9 @@
 		</nav>
 	</header>
 
-	<div>
-		<main>
-			<article>
+	<div class="container-fluid">
+		<main class="col-xs-12 col-md-9">
+			<article class="col-md-4">
 				<header>
 					<h2>Tesla hires Apple’s creator of Swift as new VP of Autopilot Software</h2>
 					<time datetime="2017-01-12">1/12/2017</time>
@@ -44,7 +46,7 @@
 					</li>
 				</ul>
 			</article>
-			<article>
+			<article class="col-md-4">
 				<header>
 					<h2>Illumina wants to sequence your whole genome for $100</h2>
 					<time datetime="2017-01-11">1/11/2017</time>
@@ -65,7 +67,7 @@
 					</li>
 				</ul>
 			</article>
-			<article>
+			<article class="col-md-4">
 				<header>
 					<h2>The outlook for Bay Area startup space in 2017</h2>
 					<time datetime="2017-01-10">1/10/2017</time>
@@ -86,7 +88,7 @@
 					</li>
 				</ul>
 			</article>
-			<article>
+			<article class="col-md-4">
 				<header>
 					<h2>Google Voice is getting an upgrade</h2>
 					<time datetime="2017-01-9">1/9/2017</time>
@@ -109,7 +111,7 @@
 			</article>
 		</main>
 
-		<aside>
+		<aside class="col-xs-12 col-md-3">
 			<section>
 				<h2>Search</h2>
 				<form method="get" action="">
@@ -153,6 +155,8 @@
 	<footer>
 		<p>&copy; 2008. All Rights Reserved. Design by geek<span>factory</span>.</p>
 	</footer>
+	<script src="jquery.min.js"></script>
+	<script src="bootstrap.min.js"></script>
 </body>
 
 </html>
