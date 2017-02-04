@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Aya's Resume</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="bootstrap.min.css">
+		<style>
+			body{
+				font-family: sans-serif;
+				line-height: 1.5;
+			}
+			header{
+				border-bottom: 1px solid #bfbfbf;
+    			padding: 5px 20px;
+				
+			}
+			.pic{
+				text-align: center;
+			}
+			.pic{
+				border: 2px solid #999;
+				border-radius: 60px;
+				height: 110px;
+				width: 110px;
+				margin: 0 33%;
+			}
+			.contacts{
+				text-align: right;
+			}
+			.contacts li{
+			    list-style: none;
+			}
+			.container{
+				    padding: 15px 20px;
+			}
+			.container .col{
+				width:49%;
+				display: inline-block;
+				vertical-align: top; 
+			}
+			h1 {
+				font-size: 32px;
+				margin: 1px 0px;
+				color: rgba(0, 0, 0, 0.79);
+			}
+			h2 {
+				font-size: 20px;
+				color: #5a5a5a;
+				margin: 5px 0px;
+			}
+			h3 {
+				font-size: 18px;
+				margin: 0;
+			}
+			h4{
+				margin: 3px 0;
+			}
+			p {
+				font-size: 14px;
+				color: #424242;
+			}
+			a {
+				font-size: 14px;
+				text-decoration: none;
+				color: #444444;
+			}
+			a:hover {
+				color: blue;
+			}
+			span{
+				margin-right: 50px;
+			}
+			li{
+				font-size: 14px;
+			}
+			.skills {
+				text-align: right;
+			}
+			meter {
+				width: 75%;
+				height: 15px;
+				background-color: black;
+				margin-left: 15px;
+			}
+			p.lang {
+			    margin: 0;
+			    font-style: italic;
+			}
+			@media (max-width:768px){
+				.info,.contacts{
+					text-align: center;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="col-xs-12 col-sm-4 info">
+					<h1>Aya Galal</h1>
+					<h2>PHP Web Developer</h2>
+					<p>3 years of experience as a php web developer.</p>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<img class="pic" src="imgs/aya.png">
+				</div>
+				<address class="col-xs-12 col-sm-4 contacts">
+					<ul>
+					<li><a href="mailto:ayaglal91@gmail">ayaglal91@gmail.com</a>
+					<img src="imgs/email.png"></li>
+					<li>+2-010-0422-0243 <img src="imgs/mobile.png"></li>
+					<li><a href="https://eg.linkedin.com/in/aya-glal-a8b56666">www.linkedin.com/in/aya-glal</a>
+					<img src="imgs/in.png"></li>
+					</ul>
+				</address>
+			</div>
+		</header>
+		<div class="container">
+		<main class="col-md-12">
+			<div class="row">
+			<section class="col-md-6">
+				<h2>Work Experience</h2>
+				<p><time datetime="2016-5">05/2016</time> - Present</p>
+				<h3>Senior Back-end Developer</h3>
+				<h4>Viral21</h4>
+				<p>Tasks/Achievements</p>
+				<ul>
+					<li>Integrating sliced PSD files already converted to HTML/CSS into WordPress dynamic theme.</li>
+					<li>Developing custom web applications on top of Wordpress that drive business processes.</li>
+					<li>Setting up WooCommerce websites.</li>
+				</ul>
+				<p><time datetime="2013-12">12/2013</time> - <time datetime="2016-4">4/2016</time></p>
+				<h3>PHP Web Developer</h3>
+				<h4>AWstreams</h4>
+				<p>Tasks/Achievements</p>
+				<ul>
+					<li>Building PHP websites using PHP based frameworks.</li>
+					<li>Testing and validating work produced as part of the development process.</li>
+					<li>Back end development and maintenance of websites using PHP and MySQL.</li>
+					<li>Developing advanced database driven websites.</li>
+				</ul>
+			</section>
+			<section class="col-md-6">
+				<h2>Skills &amp; Competences</h2>
+				<div class="col-md-12 skills">
+					<p>PHP <meter value="80" max="100"></meter></p>
+					<p>HTML <meter value="90" max="100"></meter></p>
+					<p>CSS <meter value="90" max="100"></meter></p>
+					<p>JavaScrpit <meter value="60" max="100"></meter></p>
+					<p>JQuery <meter value="60" max="100"></meter></p>
+					<p>MySQL <meter value="70" max="100"></meter></p>
+					<p>Java <meter value="50" max="100"></meter></p>
+					<p>J2SE <meter value="40" max="100"></meter></p>
+				</div>
+				<h2>Languages</h2>
+				<p class="lang"><span>English</span>
+				<span>Arabic</span></p>
+				<p class="lang"><span>V.good</span>
+				<span>Native</span></p>
+				<br>
+				<h2>Interests</h2>
+				<p>Fashion Design | Drawing | Walking</p>
+			</section>
+			</div>
+		</main>
+		</div>	
+		<script src="jquery.min.js"></script>
+		<script src="bootstrap.min.js"></script>	
+	
+</body></html>
