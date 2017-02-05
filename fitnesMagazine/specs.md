@@ -1,0 +1,12 @@
+User Stories
+- User can create an account to save his/her Data(weight,height,Gender,Age).
+- User can find Healthy Recipes.
+- User can find Weight Loss Plans.
+- User can find Workouts.
+- User can Calculate his/her Ideal Weight (BMI/BMR Calculator).
+- User can know food calories.
+- User can find Tips and Advice.
+- User can find Transformation Success Stories.
+- User can find Diet Plans.
+- User can find Articles about fitness and healthy life.
+- User can find playlists.
