@@ -2,11 +2,9 @@
 var task_1 = require("./task");
 exports.create = function () {
     var tasks = [];
-    //var onChangeCall;
     function create(category, title, priority, estimate) {
         var task = new task_1.Task(category, title, priority, estimate);
         tasks.push(task);
-        // onChangeCall && onChangeCall(tasks);
         return task;
     }
     function get(index) {

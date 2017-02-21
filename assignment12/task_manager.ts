@@ -1,11 +1,9 @@
 import { Task } from "./task";
 export var create = function() {
     var tasks = [];
-    //var onChangeCall;
     function create(category: string,title: string,priority: number,estimate: number){
         var task = new Task(category, title, priority, estimate);
         tasks.push(task);
-       // onChangeCall && onChangeCall(tasks);
          return task;
      }
 
